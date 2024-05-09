@@ -1,0 +1,97 @@
+name: pwear_store2
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.1 <4.0.0'
+
+
+dependencies:
+  
+  flutter:
+    sdk: flutter
+
+  http: ^1.1.0
+  path: ^1.8.3
+  shared_preferences: ^2.2.0
+  google_sign_in: ^6.1.4
+  google_nav_bar: ^5.0.6
+  flutter_rating_bar: ^4.0.1
+  cupertino_icons: ^1.0.2
+  google_fonts: ^5.1.0
+  provider: ^6.0.5
+  flutter_svg: ^2.0.6
+  card_swiper : ^2.0.1
+  slide_action: ^0.0.2
+  badges: ^3.1.1
+  flutter_credit_card: ^3.0.6
+  easy_stepper: ^0.6.0
+  customizable_counter: ^1.0.4
+  image_picker: ^0.8.9
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+  flutter_native_splash: ^2.0.1+1
+  flutter_launcher_icons: ^0.13.1
+  
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  image: assets\splash_screen\SplashScreen.png
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/app_icon/Pwear_Icon.png"
+  min_sdk_android: 21
+  web:
+    generate: true
+    image_path: "assets/app_icon/Pwear_Icon.png"
+    background_color: "#FFFFFF"
+    theme_color: "#FFFFFF"
+  windows:
+    generate: true
+    image_path: "assets/app_icon/Pwear_Icon.png"
+    icon_size: 48 
+  macos:
+    generate: true
+    image_path: "assets/app_icon/Pwear_Icon.png"
+  
+
+
+flutter:
+
+  
+  uses-material-design: true
+
+  
+  assets:
+    - assets/app_icon/
+    - assets/banner_image/
+    - assets/Categories_images/
+    - assets/article_images/
+    - assets/logo/
+    - assets/splash_screen/
+    - assets/Profile_image/
+    - assets/images/
+    - assets/Payment_images/
+    - assets/icons/
+    
+    
+
+  
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/fonts/OpenSans.ttf
+
+
